@@ -1,0 +1,85 @@
+
+.header {
+  position: relative;
+  &_title {
+    & span {
+      font-size: 60px;
+    }
+  }
+& .pc_menu {
+  visibility: visible;
+  opacity: 1;
+}
+
+  
+  & .hamburger {
+    opacity: 0;
+    visibility: hidden;
+  }
+  & .menu {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.concept {
+  margin-bottom: 64px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+  
+  
+  
+  & img {
+    margin-left: 0;
+    order: -1;
+    width: 35%;
+    height: 60%;
+    margin-top: 0;
+
+    
+  }
+  & h2 {
+    margin: 0;
+    padding: 0;
+   
+  }
+  & .section_text {
+   
+    margin-left: 20px;
+    padding: 0;
+    width: 50%;
+   
+
+    
+    & h3 {
+      text-align:left;
+      &::before {
+        display: none;
+      }
+    }
+
+   
+    
+  }
+
+}
+.business_guide {
+  margin-bottom: 64px;
+  & h3 {
+    text-align: left;
+  }
+  & img {
+    width: 40%;
+  }
+  & .flex {
+    flex-direction: row-reverse;
+
+  }
+}
+.recruit {
+  margin-top: 128px;
+}

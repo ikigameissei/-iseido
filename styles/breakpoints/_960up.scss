@@ -1,0 +1,92 @@
+.section_title {
+  font-size: 48px;
+  letter-spacing: 0.2em;
+  padding-top: 144px;
+  padding-bottom: 64px;
+}
+.section_text {
+  & h3 {
+    font-size: 36px;
+  }
+}
+.concept {
+  & .section_text {
+    & h3 {
+      font-size: 36px;
+    }
+  }
+}
+.business_guide {
+  margin-bottom: 200px;
+}
+.footer {
+  height: 400px;
+
+  &_inner {
+    width: 70%;
+    height: 380px;
+    margin: auto auto;
+    display: flex;
+    // align-items: center;
+    justify-content: space-around;
+
+    & h2 {
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+      align-self: center;
+      // width: 50%;
+    }
+    & .nav {
+      
+      align-self: center;
+      margin-bottom: 0;
+      
+      & ul {
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding-left: 25%;
+        // display: inline-block;
+        
+
+        & li {
+          padding: 50px 0;
+          padding-left: 60px;
+          // text-align:left ;
+
+          
+        }
+        & li:nth-child(1) {
+          width: 50%;
+          // text-align: center;
+        }
+        & li:nth-child(2) {
+          width: 50%;
+          // text-align: center;
+        }
+        & li:nth-child(3) {
+          width: 50%;
+          // text-align: center;
+        }
+        & li:nth-child(4) {
+          width: 50%;
+          // text-align: center;
+        }
+      }
+    }
+  }
+  & p {
+    margin: 0;
+    padding: 0;
+  }
+}
+.scroll_img {
+  opacity: 0;
+  &.inview {
+    opacity: 1;
+    transition: 1s;
+    
+  }
+}
